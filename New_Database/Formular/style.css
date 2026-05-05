@@ -1,0 +1,70 @@
+*{
+    font-family: inter;
+}
+
+
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    background-color: #aaa;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cont{
+    width: 40%;
+    height: 75%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-size: small;
+    color: #aaa;
+}
+
+input{
+    outline: 1px solid #000;
+    width: 100%;
+    height: 30px;
+    border-radius: 4px;
+}
+
+input[type="file"]::file-selector-button{
+    height: 100%;
+    outline: 1px solid #000;
+    border: none;
+}
+
+textarea{
+    width: 99%;
+    height: 330px;
+    resize: none;
+}
+
+.cert-keys{
+    margin-bottom: 10px;
+
+}
+
+select{
+    width: 100%;
+    height: 25px;
+}
+
+button{
+    width: 100%;
+    height: 35px;
+    background-color: #005aff;
+    color: #fff;
+    border: none;
+    border-radius:5px ;
+    outline: 1px solid #000;
+}
